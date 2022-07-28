@@ -1,0 +1,30 @@
+.options {
+  width: 260px;
+  padding: 16px;
+
+  &__list {
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      padding: 0;
+      margin: 16px 0;
+  }
+  
+  &__title {
+      text-align: center;
+      background-color: #000;
+      color: #fff;
+      border-radius: 8px;
+      line-height: 24px;
+  }
+
+  &__list-item {
+      background: transparent;
+      margin: 8px 0;
+      width: 100%;
+      outline: none;
+      cursor: pointer;
+      line-height: 24px;
+      border-radius: 8px;
+  }
+}
